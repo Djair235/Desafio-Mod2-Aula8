@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: android;
+    src: url(idroid.otf) format(opentype);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1 {
+    height: 200px;
+    background-image: linear-gradient(to bottom, #39CB79,#1A5B37);
+}
+
+.header1 > h1 {
+    height: fit-content;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.header1 > p {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.header1 > div > nav > span {
+    color: white;
+    margin-right: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.header1 > div > nav > .span1 {
+    margin-left: 20px;
+}
+
+.div1 {
+    margin-top: 50px;
+}
+
+.div__conteudo {
+    background-color: white;
+    width: 1000px;
+    height: 2670px;
+    margin: auto;
+    
+}
+
+.conteudo__principal {
+    background-color: #84E1AD;
+    padding-bottom: 35px;
+}
+
+.conteudo__h1 {
+    font-family: android;
+    color: rgb(4, 88, 4);
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+.conteudo__h1-2 {
+    font-family: android;
+    color: rgb(4, 88, 4);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+#h1__secundario {
+    background-image: linear-gradient(to right, #91e7b8, white);
+    height: fit-content;
+}
+
+.conteudo__p {
+    width: 950px;
+    margin: auto;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2;
+    
+}
+
+#p__secundario {
+    margin-top: 20px;
+}
+
+.span__a__inkscape > a {
+    text-decoration: none;
+    color: rgb(4, 88, 4);
+    font-weight: bold;
+}
+
+.span__a__inkscape:hover {
+    text-decoration: underline #1A5B37;
+   
+}
+
+.span__a__inkscape {
+    background-color: #91e7b8;
+    padding: 3px;
+}
+
+.div__img__robots {
+    text-align: center;
+}
+
+#p__terciario {
+    margin-top: 20px;
+}
+
+.conteudo__h1-3 {
+    font-family: android;
+    color: rgb(4, 88, 4);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+#h1__terciario {
+    background-image: linear-gradient(to right, #91e7b8, white);
+    height: fit-content;
+}
+
+#p__quaternario {
+    margin-top: 20px;
+}
+
+.span__a__irinablok {
+    background-color: #91e7b8;
+    padding: 3px;
+}
+
+.span__a__irinablok > a {
+    text-decoration: none;
+    color: rgb(4, 88, 4);
+    font-weight: bold;
+}
+
+.div__img__irina {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.span__bugandroid {
+    color: #1A5B37;
+    font-weight: bold;
+}
+
+#p__quintenario {
+    margin-top: 25px;
+}
+
+.div__img__androidbug {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#p__sextenario {
+    margin-top: 15px;
+}
+
+.div__video__android {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #1A5B37;
+    text-align: center;
+    margin-top: 35px;
+}
+.div__lista__centralizar {
+    display: flex;
+    justify-content: center;
+}
+
+.section__lista {
+    background-color: #88c5a5;
+    margin-top: 50px;
+    height: 550px;
+    width: 920px;
+    border-radius: 20px;
+}
+
+.section__lista > h1 {
+    background-color: #1A5B37;
+    color: white;
+    font-weight: bold;
+    height: fit-content;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 10px;
+}
+
+.conteudo__p__lista {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0px 20px 0px 20px;
+}
+#p__section__lista {
+    margin-top: 25px;
+    line-height: 2;
+}
+
+.section__uls {
+    width: 100%;
+    height: fit-content;
+    background-color: #88c5a5;
+    display: flex;
+    padding-bottom: 20px;
+    
+
+}
+
+.div__ul1 {
+    width: 50%;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.div__ul1 > ul {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div__ul1 > ul > span > span{
+    text-decoration: underline;
+}
+
+.div__ul2 {
+    width: 50%;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div__ul2 > ul {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div__ul2 > ul > span > span {
+    text-decoration: underline;
+}
+
+#p__section__lista1 {
+    margin-top: 25px;
+    line-height: 2;
+}
+
+
+
+.span__androidhistory > a {
+    text-decoration: none;
+    color: #1A5B37;
+    font-weight: bold;
+}
+
+.p__final {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
